@@ -1,0 +1,25 @@
+{
+    "name": "SSharshunov/mailcheck",
+    "description": "Simple OOP mailcheck wrapper.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Sharshunov",
+            "email": "s.sharshunov@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "MailCheck": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist" 
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
